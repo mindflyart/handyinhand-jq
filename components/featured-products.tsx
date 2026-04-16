@@ -8,8 +8,8 @@ export function FeaturedProducts() {
     {
       name: "TB4-L Tipping Bucket Rain Gauge",
       image: "/images/spare-parts.jpg",
-      specs: ["0.2mm resolution", "AS3580 compliant", "Heated option available"],
-      badge: "AS3580"
+      specs: ["0.2mm resolution", "AS3580-compatible", "Heated option available"],
+      badge: "AS3580-compatible"
     },
     {
       name: "WS500 Compact Weather Station",

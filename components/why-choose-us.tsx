@@ -5,7 +5,7 @@ export function WhyChooseUs() {
     {
       icon: ShieldCheck,
       title: "Australian Standards Compliance",
-      description: "All equipment meets AS3580, EPA, and WMO standards. Full documentation and compliance certificates provided with every order."
+      description: "Parts for Australian Standard environmental monitoring systems. Full documentation provided with every order."
     },
     {
       icon: Truck,

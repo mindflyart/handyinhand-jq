@@ -1,11 +1,11 @@
-import { Shield, Award, CheckCircle, FileCheck } from "lucide-react"
+import { FileCheck, Shield, Clock, Truck } from "lucide-react"
 
 export function TrustBar() {
   const badges = [
-    { icon: Shield, label: "Australian Standards AS3580" },
-    { icon: Award, label: "WMO Certified" },
-    { icon: CheckCircle, label: "EPA Compliance" },
-    { icon: FileCheck, label: "NATA Compatible" },
+    { icon: FileCheck, label: "Government Purchase Orders Accepted" },
+    { icon: Shield, label: "Parts for Australian Standard Monitoring Systems" },
+    { icon: Clock, label: "24-Hour Quote Turnaround" },
+    { icon: Truck, label: "Brisbane-Based, Australia-Wide Delivery" },
   ]
 
   return (

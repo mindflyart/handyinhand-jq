@@ -12,7 +12,7 @@ export function ProductCategories() {
     {
       icon: Droplets,
       name: "Rain Gauges",
-      description: "Precision tipping bucket and weighing rain gauges with AS3580 compliance certification.",
+      description: "Precision tipping bucket and weighing rain gauges. AS3580-compatible product range.",
       href: "#products"
     },
     {

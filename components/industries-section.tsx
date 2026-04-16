@@ -1,4 +1,4 @@
-import { HardHat, Building2, Tractor, Landmark, FileSearch } from "lucide-react"
+import { HardHat, Building2, Tractor, Landmark, FileSearch, MapPin, Building } from "lucide-react"
 
 export function IndustriesSection() {
   const industries = [
@@ -7,6 +7,8 @@ export function IndustriesSection() {
     { icon: Tractor, label: "Agriculture" },
     { icon: Landmark, label: "Local Government" },
     { icon: FileSearch, label: "Environmental Consultants" },
+    { icon: MapPin, label: "SEQ Local Councils" },
+    { icon: Building, label: "Government Agencies" },
   ]
 
   return (

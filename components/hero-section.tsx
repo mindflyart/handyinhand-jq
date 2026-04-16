@@ -21,11 +21,11 @@ export function HeroSection() {
       {/* Content */}
       <div className="relative z-10 max-w-5xl mx-auto px-6 lg:px-8 text-center">
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight text-balance">
-          Precision Environmental Monitoring Equipment for Australian Industry
+          Environmental Monitoring Equipment &amp; Spare Parts for Australian Industry
         </h1>
         <p className="mt-6 text-lg md:text-xl text-white/80 max-w-3xl mx-auto text-pretty">
-          Trusted spare parts and installation services for rain gauges, weather stations, and air quality monitors. 
-          Meeting AS3580, EPA, and WMO compliance standards.
+          Parts for Australian Standard environmental monitoring systems. Rain gauges, weather stations, and air quality monitors.
+          Brisbane-based, Australia-wide delivery. Government purchase orders accepted.
         </p>
         <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
           <Button size="lg" asChild className="bg-white text-[#1a2e44] hover:bg-white/90 font-semibold">

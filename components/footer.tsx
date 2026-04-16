@@ -59,8 +59,7 @@ export function Footer() {
             <ul className="space-y-2 text-sm text-white/60">
               <li>1300 HANDYINHAND</li>
               <li>sales@handyinhand.com.au</li>
-              <li>Unit 5, 123 Industrial Drive</li>
-              <li>Eagle Farm, QLD 4009</li>
+              <li>Brisbane, Queensland</li>
             </ul>
           </div>
 
@@ -70,7 +69,6 @@ export function Footer() {
               Legal
             </h4>
             <ul className="space-y-2 text-sm text-white/60">
-              <li>ABN: XX XXX XXX XXX</li>
               <li>
                 <Link href="#" className="hover:text-white transition-colors">
                   Privacy Policy

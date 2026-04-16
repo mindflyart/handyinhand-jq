@@ -62,7 +62,7 @@ export function ContactSection() {
                 </div>
                 <div>
                   <p className="font-semibold text-foreground">Phone</p>
-                  <p className="text-muted-foreground">1300 RAINTECH (1300 724 683)</p>
+                  <p className="text-muted-foreground">1300 HANDYINHAND</p>
                   <p className="text-sm text-muted-foreground">Mon-Fri, 8am - 5pm AEST</p>
                 </div>
               </div>
@@ -73,7 +73,7 @@ export function ContactSection() {
                 </div>
                 <div>
                   <p className="font-semibold text-foreground">Email</p>
-                  <p className="text-muted-foreground">sales@raintechsolutions.com.au</p>
+                  <p className="text-muted-foreground">sales@handyinhand.com.au</p>
                 </div>
               </div>
 
@@ -82,9 +82,8 @@ export function ContactSection() {
                   <MapPin className="w-5 h-5 text-primary" />
                 </div>
                 <div>
-                  <p className="font-semibold text-foreground">Address</p>
-                  <p className="text-muted-foreground">Unit 5, 123 Industrial Drive</p>
-                  <p className="text-muted-foreground">Eagle Farm, QLD 4009</p>
+                  <p className="font-semibold text-foreground">Location</p>
+                  <p className="text-muted-foreground">Brisbane, Queensland</p>
                 </div>
               </div>
             </div>

@@ -10,8 +10,8 @@ export function AboutSection() {
               About HandyInHand
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Based in Brisbane, HandyInHand has been supplying quality environmental monitoring 
-              equipment and spare parts to Australian industry for over 15 years. We specialise in 
+              Based in Brisbane, HandyInHand supplies quality environmental monitoring
+              equipment and spare parts to Australian industry. We specialise in
               rain gauges, weather stations, and air quality monitoring systems.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-4">

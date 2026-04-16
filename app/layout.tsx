@@ -8,7 +8,7 @@ const _geistMono = Geist_Mono({ subsets: ["latin"], variable: "--font-mono" });
 
 export const metadata: Metadata = {
   title: 'HandyInHand | Environmental Monitoring Equipment & Spare Parts | Australia',
-  description: 'Australian supplier of rain gauges, weather stations, air quality monitors and spare parts. AS3580, EPA & WMO compliant equipment for mining, construction, agriculture and government sectors.',
+  description: 'Australian supplier of rain gauges, weather stations, air quality monitors and spare parts. Parts for Australian Standard environmental monitoring systems. Brisbane-based, Australia-wide delivery.',
   generator: 'v0.app',
   icons: {
     icon: [
