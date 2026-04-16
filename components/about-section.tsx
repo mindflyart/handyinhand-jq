@@ -16,7 +16,7 @@ export function AboutSection() {
             </p>
             <p className="text-muted-foreground leading-relaxed mb-4">
               Our team of certified technicians provides professional installation, calibration, 
-              and maintenance services across Queensland, New South Wales, and the Northern Territory.
+              and maintenance services across Queensland.
             </p>
             <ul className="space-y-2 text-muted-foreground">
               <li className="flex items-center gap-2">
