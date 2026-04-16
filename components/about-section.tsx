@@ -1,47 +1,46 @@
 import Image from "next/image"
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
 
 export function AboutSection() {
   return (
-    <section id="about" className="py-20 lg:py-28 bg-background">
+    <section id="about" className="py-16 bg-secondary">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-semibold text-foreground text-balance">
-            Combining Innovation, Durability, and Precision
-          </h2>
-        </div>
-
-        {/* Two Column Image Grid */}
-        <div className="grid md:grid-cols-2 gap-4 mb-12">
-          <div className="relative aspect-[4/3] overflow-hidden rounded-lg">
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
+              About RainTech Solutions
+            </h2>
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              Based in Brisbane, RainTech Solutions has been supplying quality environmental monitoring 
+              equipment and spare parts to Australian industry for over 15 years. We specialise in 
+              rain gauges, weather stations, and air quality monitoring systems.
+            </p>
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              Our team of certified technicians provides professional installation, calibration, 
+              and maintenance services across Queensland, New South Wales, and the Northern Territory.
+            </p>
+            <ul className="space-y-2 text-muted-foreground">
+              <li className="flex items-center gap-2">
+                <span className="w-1.5 h-1.5 bg-primary rounded-full" />
+                Australian-owned and operated
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="w-1.5 h-1.5 bg-primary rounded-full" />
+                NATA-compatible calibration services
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="w-1.5 h-1.5 bg-primary rounded-full" />
+                Nationwide shipping and support
+              </li>
+            </ul>
+          </div>
+          <div className="relative h-80 lg:h-96 rounded-lg overflow-hidden">
             <Image
               src="/images/installation.jpg"
-              alt="Professional technician installing rain gauge equipment"
+              alt="RainTech Solutions technician installing equipment"
               fill
               className="object-cover"
             />
           </div>
-          <div className="relative aspect-[4/3] overflow-hidden rounded-lg">
-            <Image
-              src="/images/spare-parts.jpg"
-              alt="Precision rain gauge components and spare parts"
-              fill
-              className="object-cover"
-            />
-          </div>
-        </div>
-
-        {/* Description */}
-        <div className="max-w-3xl mx-auto text-center">
-          <p className="text-muted-foreground leading-relaxed">
-            RainTech Solutions is committed to advancing environmental monitoring through 
-            reliable rain gauge station equipment and services. We provide sustainable solutions 
-            that serve researchers, meteorologists, and agricultural enterprises worldwide.
-          </p>
-          <Button variant="outline" className="mt-8" asChild>
-            <Link href="#contact">Our Commitment</Link>
-          </Button>
         </div>
       </div>
     </section>

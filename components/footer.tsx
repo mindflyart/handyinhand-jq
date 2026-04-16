@@ -1,133 +1,94 @@
-"use client"
-
 import Link from "next/link"
-import { useState } from "react"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
 import { Droplets } from "lucide-react"
 
 export function Footer() {
-  const [email, setEmail] = useState("")
-
-  const handleNewsletterSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    console.log("Newsletter signup:", email)
-    setEmail("")
-  }
-
   return (
-    <footer className="bg-background border-t border-border py-16 lg:py-20">
+    <footer className="bg-[#1a2e44] py-12">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-12 lg:gap-8">
-          {/* Newsletter */}
-          <div className="lg:col-span-2">
-            <h3 className="font-medium text-foreground mb-4">RainTech Newsletter</h3>
-            <form onSubmit={handleNewsletterSubmit} className="flex gap-2">
-              <Input
-                type="email"
-                placeholder="Enter email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                className="flex-1"
-                required
-              />
-              <Button type="submit" variant="outline">
-                Submit
-              </Button>
-            </form>
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
+          {/* Logo & About */}
+          <div className="lg:col-span-1">
+            <Link href="/" className="flex items-center gap-2 mb-4">
+              <Droplets className="h-6 w-6 text-white" />
+              <span className="font-semibold text-lg text-white">RainTech Solutions</span>
+            </Link>
+            <p className="text-sm text-white/60 leading-relaxed">
+              Australia&apos;s trusted supplier of environmental monitoring equipment and spare parts.
+            </p>
           </div>
 
           {/* Navigation */}
           <div>
-            <h4 className="text-xs font-medium text-muted-foreground uppercase tracking-wider mb-4">
+            <h4 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">
               Navigation
             </h4>
-            <ul className="space-y-3">
+            <ul className="space-y-2">
               <li>
-                <Link href="#" className="text-sm text-foreground hover:text-muted-foreground transition-colors">
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link href="#services" className="text-sm text-foreground hover:text-muted-foreground transition-colors">
-                  Services
-                </Link>
-              </li>
-              <li>
-                <Link href="#products" className="text-sm text-foreground hover:text-muted-foreground transition-colors">
+                <Link href="#products" className="text-sm text-white/60 hover:text-white transition-colors">
                   Products
                 </Link>
               </li>
               <li>
-                <Link href="#about" className="text-sm text-foreground hover:text-muted-foreground transition-colors">
+                <Link href="#solutions" className="text-sm text-white/60 hover:text-white transition-colors">
+                  Solutions
+                </Link>
+              </li>
+              <li>
+                <Link href="#industries" className="text-sm text-white/60 hover:text-white transition-colors">
+                  Industries
+                </Link>
+              </li>
+              <li>
+                <Link href="#about" className="text-sm text-white/60 hover:text-white transition-colors">
                   About
                 </Link>
               </li>
               <li>
-                <Link href="#contact" className="text-sm text-foreground hover:text-muted-foreground transition-colors">
+                <Link href="#contact" className="text-sm text-white/60 hover:text-white transition-colors">
                   Contact
                 </Link>
               </li>
             </ul>
           </div>
 
-          {/* Resources */}
+          {/* Contact */}
           <div>
-            <h4 className="text-xs font-medium text-muted-foreground uppercase tracking-wider mb-4">
-              Resources
+            <h4 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">
+              Contact
             </h4>
-            <ul className="space-y-3">
-              <li>
-                <Link href="#" className="text-sm text-foreground hover:text-muted-foreground transition-colors">
-                  Technical Guides
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-sm text-foreground hover:text-muted-foreground transition-colors">
-                  Product Catalogs
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-sm text-foreground hover:text-muted-foreground transition-colors">
-                  FAQs
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-sm text-foreground hover:text-muted-foreground transition-colors">
-                  Support
-                </Link>
-              </li>
+            <ul className="space-y-2 text-sm text-white/60">
+              <li>1300 RAINTECH (1300 724 683)</li>
+              <li>sales@raintechsolutions.com.au</li>
+              <li>Unit 5, 123 Industrial Drive</li>
+              <li>Eagle Farm, QLD 4009</li>
             </ul>
           </div>
 
-          {/* Connect */}
+          {/* Legal */}
           <div>
-            <h4 className="text-xs font-medium text-muted-foreground uppercase tracking-wider mb-4">
-              Connect
+            <h4 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">
+              Legal
             </h4>
-            <ul className="space-y-3">
+            <ul className="space-y-2 text-sm text-white/60">
+              <li>ABN: XX XXX XXX XXX</li>
               <li>
-                <Link href="#" className="text-sm text-foreground hover:text-muted-foreground transition-colors">
-                  LinkedIn
+                <Link href="#" className="hover:text-white transition-colors">
+                  Privacy Policy
                 </Link>
               </li>
               <li>
-                <Link href="mailto:info@raintech.com" className="text-sm text-foreground hover:text-muted-foreground transition-colors">
-                  info@raintech.com
+                <Link href="#" className="hover:text-white transition-colors">
+                  Terms of Service
                 </Link>
               </li>
             </ul>
           </div>
         </div>
 
-        {/* Bottom Section */}
-        <div className="mt-16 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
-          <div className="flex items-center gap-2">
-            <Droplets className="h-8 w-8 text-foreground" />
-            <span className="text-2xl font-light tracking-tight text-foreground">RainTech</span>
-          </div>
-          <p className="text-xs text-muted-foreground">
-            {new Date().getFullYear()} RainTech Solutions. All rights reserved.
+        {/* Bottom Bar */}
+        <div className="pt-8 border-t border-white/10">
+          <p className="text-sm text-white/40 text-center">
+            {new Date().getFullYear()} RainTech Solutions Pty Ltd. All rights reserved.
           </p>
         </div>
       </div>

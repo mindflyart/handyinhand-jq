@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 
 export function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center">
+    <section className="relative min-h-[85vh] flex items-center justify-center pt-16">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
@@ -14,26 +14,25 @@ export function HeroSection() {
           className="object-cover"
           priority
         />
-        <div className="absolute inset-0 bg-foreground/60" />
+        {/* Dark steel-blue overlay */}
+        <div className="absolute inset-0 bg-[#1a2e44]/75" />
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-4xl mx-auto px-6 lg:px-8 text-center">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold text-primary-foreground leading-tight text-balance">
-          Precision Rain Gauge Solutions
-          <br />
-          <span className="text-primary-foreground/80">for Every Environment</span>
+      <div className="relative z-10 max-w-5xl mx-auto px-6 lg:px-8 text-center">
+        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight text-balance">
+          Precision Environmental Monitoring Equipment for Australian Industry
         </h1>
-        <p className="mt-6 text-lg md:text-xl text-primary-foreground/70 max-w-2xl mx-auto text-pretty">
-          Professional spare parts and expert installation services for environmental monitoring stations. 
-          Trusted by meteorological agencies, research institutions, and agricultural enterprises.
+        <p className="mt-6 text-lg md:text-xl text-white/80 max-w-3xl mx-auto text-pretty">
+          Trusted spare parts and installation services for rain gauges, weather stations, and air quality monitors. 
+          Meeting AS3580, EPA, and WMO compliance standards.
         </p>
-        <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-          <Button size="lg" asChild className="bg-primary-foreground text-primary hover:bg-primary-foreground/90">
-            <Link href="#products">Explore Parts</Link>
+        <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+          <Button size="lg" asChild className="bg-white text-[#1a2e44] hover:bg-white/90 font-semibold">
+            <Link href="#products">Browse Products</Link>
           </Button>
-          <Button size="lg" variant="outline" asChild className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10">
-            <Link href="#services">Our Services</Link>
+          <Button size="lg" variant="outline" asChild className="border-2 border-white text-white bg-transparent hover:bg-white/10 font-semibold">
+            <Link href="#contact">Get a Quote</Link>
           </Button>
         </div>
       </div>
