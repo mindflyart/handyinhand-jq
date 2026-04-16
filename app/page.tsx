@@ -1,9 +1,13 @@
 import { Header } from "@/components/header"
 import { HeroSection } from "@/components/hero-section"
-import { KeyPointsSection } from "@/components/key-points-section"
+import { TrustBar } from "@/components/trust-bar"
+import { ProductCategories } from "@/components/product-categories"
+import { IndustriesSection } from "@/components/industries-section"
+import { WhyChooseUs } from "@/components/why-choose-us"
+import { FeaturedProducts } from "@/components/featured-products"
+import { Testimonials } from "@/components/testimonials"
 import { AboutSection } from "@/components/about-section"
-import { ServicesSection } from "@/components/services-section"
-import { ProductsSection } from "@/components/products-section"
+import { CtaBanner } from "@/components/cta-banner"
 import { ContactSection } from "@/components/contact-section"
 import { Footer } from "@/components/footer"
 
@@ -12,10 +16,14 @@ export default function HomePage() {
     <main>
       <Header />
       <HeroSection />
-      <KeyPointsSection />
+      <TrustBar />
+      <ProductCategories />
+      <IndustriesSection />
+      <WhyChooseUs />
+      <FeaturedProducts />
+      <Testimonials />
       <AboutSection />
-      <ServicesSection />
-      <ProductsSection />
+      <CtaBanner />
       <ContactSection />
       <Footer />
     </main>

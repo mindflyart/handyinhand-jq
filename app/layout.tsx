@@ -1,14 +1,14 @@
 import type { Metadata } from 'next'
-import { Geist, Geist_Mono } from 'next/font/google'
+import { Inter, Geist_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
-const _geist = Geist({ subsets: ["latin"] });
-const _geistMono = Geist_Mono({ subsets: ["latin"] });
+const _inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
+const _geistMono = Geist_Mono({ subsets: ["latin"], variable: "--font-mono" });
 
 export const metadata: Metadata = {
-  title: 'RainTech Solutions | Rain Gauge Spare Parts & Installation Services',
-  description: 'Professional environmental rain gauge station spare parts and expert installation services. Precision equipment for meteorological agencies, agriculture, and research institutions.',
+  title: 'RainTech Solutions | Environmental Monitoring Equipment & Spare Parts | Australia',
+  description: 'Australian supplier of rain gauges, weather stations, air quality monitors and spare parts. AS3580, EPA & WMO compliant equipment for mining, construction, agriculture and government sectors.',
   generator: 'v0.app',
   icons: {
     icon: [
