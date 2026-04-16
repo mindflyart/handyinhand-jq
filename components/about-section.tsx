@@ -7,10 +7,10 @@ export function AboutSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
-              About RainTech Solutions
+              About HandyInHand
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Based in Brisbane, RainTech Solutions has been supplying quality environmental monitoring 
+              Based in Brisbane, HandyInHand has been supplying quality environmental monitoring 
               equipment and spare parts to Australian industry for over 15 years. We specialise in 
               rain gauges, weather stations, and air quality monitoring systems.
             </p>
@@ -36,7 +36,7 @@ export function AboutSection() {
           <div className="relative h-80 lg:h-96 rounded-lg overflow-hidden">
             <Image
               src="/images/installation.jpg"
-              alt="RainTech Solutions technician installing equipment"
+              alt="HandyInHand technician installing equipment"
               fill
               className="object-cover"
             />

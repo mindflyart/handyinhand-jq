@@ -10,7 +10,7 @@ export function Footer() {
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center gap-2 mb-4">
               <Droplets className="h-6 w-6 text-white" />
-              <span className="font-semibold text-lg text-white">RainTech Solutions</span>
+              <span className="font-semibold text-lg text-white">HandyInHand</span>
             </Link>
             <p className="text-sm text-white/60 leading-relaxed">
               Australia&apos;s trusted supplier of environmental monitoring equipment and spare parts.
@@ -57,8 +57,8 @@ export function Footer() {
               Contact
             </h4>
             <ul className="space-y-2 text-sm text-white/60">
-              <li>1300 RAINTECH (1300 724 683)</li>
-              <li>sales@raintechsolutions.com.au</li>
+              <li>1300 HANDYINHAND</li>
+              <li>sales@handyinhand.com.au</li>
               <li>Unit 5, 123 Industrial Drive</li>
               <li>Eagle Farm, QLD 4009</li>
             </ul>
@@ -88,7 +88,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-white/10">
           <p className="text-sm text-white/40 text-center">
-            {new Date().getFullYear()} RainTech Solutions Pty Ltd. All rights reserved.
+            {new Date().getFullYear()} HandyInHand Pty Ltd. All rights reserved.
           </p>
         </div>
       </div>

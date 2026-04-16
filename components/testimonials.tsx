@@ -3,7 +3,7 @@ import { Quote } from "lucide-react"
 export function Testimonials() {
   const testimonials = [
     {
-      quote: "RainTech Solutions has been our go-to supplier for rain gauge spare parts for over 5 years. Their fast turnaround and AS3580-compliant equipment keeps our monitoring network running smoothly.",
+      quote: "HandyInHand has been our go-to supplier for rain gauge spare parts for over 5 years. Their fast turnaround and AS3580-compliant equipment keeps our monitoring network running smoothly.",
       author: "David Mitchell",
       role: "Environmental Manager",
       company: "Queensland Department of Environment"
