@@ -15,7 +15,7 @@ export function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
             <Droplets className="h-6 w-6 text-primary" />
-            <span className="font-semibold text-lg tracking-tight text-primary">RainTech Solutions</span>
+            <span className="font-semibold text-lg tracking-tight text-primary">HandyInHand</span>
           </Link>
 
           {/* Desktop Navigation */}

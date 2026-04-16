@@ -1,13 +1,13 @@
 import type { Metadata } from 'next'
-import { Inter, Geist_Mono } from 'next/font/google'
+import { Geist, Geist_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
-const _inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
+const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"], variable: "--font-mono" });
 
 export const metadata: Metadata = {
-  title: 'RainTech Solutions | Environmental Monitoring Equipment & Spare Parts | Australia',
+  title: 'HandyInHand | Environmental Monitoring Equipment & Spare Parts | Australia',
   description: 'Australian supplier of rain gauges, weather stations, air quality monitors and spare parts. AS3580, EPA & WMO compliant equipment for mining, construction, agriculture and government sectors.',
   generator: 'v0.app',
   icons: {

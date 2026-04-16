@@ -24,7 +24,7 @@ export function WhyChooseUs() {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="text-center mb-10">
           <h2 className="text-2xl md:text-3xl font-bold text-foreground">
-            Why Choose RainTech Solutions
+            Why Choose HandyInHand
           </h2>
         </div>
 
