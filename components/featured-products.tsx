@@ -8,20 +8,20 @@ export function FeaturedProducts() {
     {
       name: "TB4-L Tipping Bucket Rain Gauge",
       image: "/images/spare-parts.jpg",
-      specs: ["0.2mm resolution", "AS3580-compatible", "Heated option available"],
-      badge: "AS3580-compatible"
+      specs: ["0.2mm resolution", "Suits AS3580.14 monitoring systems", "Heated option available"],
+      badge: "AS3580-compatible product range"
     },
     {
       name: "WS500 Compact Weather Station",
       image: "/images/installation.jpg",
       specs: ["5 sensors integrated", "Solar powered", "4G telemetry ready"],
-      badge: "WMO Certified"
+      badge: "Weather Station Parts"
     },
     {
       name: "DL200 Multi-Channel Data Logger",
       image: "/images/calibration.jpg",
       specs: ["16 input channels", "SD card storage", "Modbus compatible"],
-      badge: "EPA Compatible"
+      badge: "Data Logger Parts"
     }
   ]
 
