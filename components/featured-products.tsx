@@ -6,19 +6,19 @@ import { Badge } from "@/components/ui/badge"
 export function FeaturedProducts() {
   const products = [
     {
-      name: "TB4-L Tipping Bucket Rain Gauge",
+      name: "TB4-L Tipping Bucket Spare Parts",
       image: "/images/spare-parts.jpg",
       specs: ["0.2mm resolution", "Suits AS3580.14 monitoring systems", "Heated option available"],
       badge: "AS3580-compatible product range"
     },
     {
-      name: "WS500 Compact Weather Station",
+      name: "Weather Station Spare Parts & Components",
       image: "/images/installation.jpg",
       specs: ["5 sensors integrated", "Solar powered", "4G telemetry ready"],
       badge: "Weather Station Parts"
     },
     {
-      name: "DL200 Multi-Channel Data Logger",
+      name: "Data Logger Spare Parts & Accessories",
       image: "/images/calibration.jpg",
       specs: ["16 input channels", "SD card storage", "Modbus compatible"],
       badge: "Data Logger Parts"
@@ -33,7 +33,7 @@ export function FeaturedProducts() {
             Featured Products
           </h2>
           <p className="mt-3 text-muted-foreground max-w-2xl mx-auto">
-            Popular equipment and spare parts for Australian environmental monitoring.
+            Commonly requested spare parts and replacement components for Australian monitoring stations.
           </p>
         </div>
 
